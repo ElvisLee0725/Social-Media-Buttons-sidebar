@@ -1,0 +1,91 @@
+#social-media-sticker {
+  z-index: 999;
+  position: fixed;
+  left: 0px;
+  top: 30%;
+}
+
+#social-media-sticker ul.smIcons {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#social-media-sticker ul li.smIcon {
+  margin:0;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  text-align: center;
+  transition: all .2s;
+}
+
+#social-media-sticker ul li.smIcon:hover {
+  width: 60px;
+}
+
+#social-media-sticker ul li.smIcon i{
+  color: #fff;
+  line-height:48px !important;
+}
+
+#social-media-sticker ul li.facebook {
+  background-color: #3B5998;
+}
+
+#social-media-sticker ul li.twitter {
+  background-color: #00b6f1;
+}
+
+#social-media-sticker ul li.linkedin {
+  background-color: #007bb6;
+}
+
+#social-media-sticker ul li.envelope {
+  background-color: #3498db;
+}
+
+.smIcons {
+  transition: all .3s;
+}
+.smIcon-hide {
+  transform: translateX(-48px);
+  transition: all .3s;
+}
+
+#social-media-sticker ul.smToggle li {
+  margin: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  cursor: pointer;
+  text-align: center;
+  transition: all .2s;
+}
+
+#social-media-sticker ul.smToggle {
+  list-style: none;
+  padding-left: 10px;
+}
+
+#social-media-sticker ul.smToggle li:hover {
+  background-color: #aaa;
+}
+
+#social-media-sticker ul.smToggle li a i{
+  color: #fff;
+  line-height: 20px !important;
+}
+
+.caret-rotate {
+  -moz-transform: rotate(180deg) !important;
+  -webkit-transform: rotate(180deg) !important;
+  -o-transform: rotate(180deg) !important;
+  -ms-transform: rotate(180deg) !important;
+  transform: rotate(180deg) !important;   
+  transition: all .3s;
+}
+
+.smToggle a i{
+  transition: all .3s;
+}
